@@ -2,7 +2,7 @@ const buildHTML = (XHR) => {
   const item = XHR.response.post;
   const html = `
     <div class="post">
-      <din class="post-data">
+      <div class="post-data">
         投稿日時:${item.created_at}
       </div>
       <div class="post-content">
